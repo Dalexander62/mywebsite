@@ -1,0 +1,101 @@
+html, body {
+
+
+margin:0;
+
+font-family: 'Bebas Neue', sans-serif;
+
+background-color: lightgray;
+
+
+
+
+}
+.name{
+	color: black;
+	font-size: 20px;
+	padding: 15px  25px;
+	display: inline-block;
+	width:100%;
+	text-align: center;
+}
+
+.menu{
+	text-align: center;
+}
+
+.menu ul li{
+	display: inline-block;
+	line-height: 5px;
+	padding:5px;
+	font-size: 15px;
+	
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+
+}
+
+.menu a:hover{
+	border-bottom: 2px solid red;
+}
+
+.header{
+	text-align: center;
+	font-size: 18px;
+	padding: 5px;
+	
+
+}
+
+
+.gallery{
+	margin:auto;
+	border:10px solid #ccc;
+	float:left;
+	width:390px;
+	transition: transform .2s;
+}
+
+.gallery img{
+	width: 100%;
+	height: auto;
+	float: right;
+	
+}
+
+
+.contact {
+color:black;
+font-size:10px;
+display: block;
+text-align: center;
+line-height: 10px;
+
+}
+.email{
+	color: black;
+	font-size:15px;
+	display: block;
+	text-align: center;
+
+}
+
+.fa {
+	padding:15 px;
+	font-size:20px;
+	width:50px;
+	text-decoration: none;
+}
+.fa-instagram{
+	background:lightgray;
+	color:black;
+	position: center;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');

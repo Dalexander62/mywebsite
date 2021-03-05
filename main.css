@@ -1,0 +1,59 @@
+ html, body {
+ 	margin:0;
+
+	font-family: 'Bebas Neue', sans-serif;
+
+
+
+	background-image: url("Images/background.jpg");
+	background-size: cover;
+	height:100%;
+	width:100%;
+	position: relative;
+
+}
+	
+
+
+.name{
+	color: #fff;
+	font-size: 15px;
+	padding: 25px  35px;
+	display: inline-block;
+	width:100%;
+	font-style: normal;
+}
+
+.menu{
+	float: left;
+
+}
+.menu ul li{
+	display: inline-block;
+	float: left;
+	line-height: 5px
+
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 17px;
+	padding: 5px 10px;
+}
+.menu a:hover {
+	border-bottom: 2px solid green;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+
+
+
+
+
